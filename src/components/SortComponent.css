@@ -1,0 +1,12 @@
+.SortComponent{
+  background: black;
+  padding: 20px 50px;
+  top: 50px;
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
+.SortComponent_child{
+  margin: 10px 0px;
+  cursor: pointer;
+}

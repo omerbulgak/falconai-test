@@ -1,0 +1,84 @@
+.circularProgressContainer {
+    background-color: #2D3960;
+    flex:1;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.circularProgressRow {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-right:60px;
+}
+
+.circularProgressColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftBox {
+    padding-top: 30px;
+    background-color: #273255;   
+}
+
+.leftBoxRows {
+    color: #777777;
+    height: 67.5px;
+    text-align: center;
+    width: 180px;
+}
+
+.normal {
+    color: #fff;
+}
+
+.circularProgressBar {
+    padding-left: 60px;
+    width: 200px;
+}
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #fff;
+    font-weight: bold;
+  }
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #ffcb0c;
+}
+
+.progressBottomText {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.statBox {
+    padding-left: 40px;
+}
+
+.statOne {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+.statTwo {
+    padding: 10px;
+}
+
+.statThree {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.mustard{
+    color:#ffcb0c;
+}

@@ -1,0 +1,67 @@
+.userStatContainer {
+  background-color: #2d3960;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30%; 
+  margin-top:20px;
+}
+
+.userStatColumn {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.userStatRow {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.leftPadding {
+  padding-left: 25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.userStatColumn:nth-child(odd) {
+  background-color: #273255;
+}
+
+.leftContainer {
+  width: 100%;
+  height: 33%;
+}
+
+.rightContainer {
+  align-items: center;
+  padding: 1rem 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.statBar {
+  height: 40px;
+}
+
+.progressBar {
+  position: relative;
+  height: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #9b80fa, #971fad);
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.userStatContainer_bestHeroes {
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  flex: 1;
+}

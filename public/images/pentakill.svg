@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="pentakill" transform="translate(-1440 465)">
+    <path id="back" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(1440 -465)" fill="#17172e"/>
+    <path id="pentakill-2" data-name="pentakill" d="M15.392,7l8,5.729L20.336,22H10.447L7.392,12.729Z" transform="translate(1439.608 -465)" fill="#ff9b00"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="quadrakill" transform="translate(-1405 465)">
+    <path id="back" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(1405 -465)" fill="#17172e"/>
+    <path id="quadrakill-2" data-name="quadrakill" d="M15,7l8,8-8,8L7,15Z" transform="translate(1405 -465)" fill="#08a6ff"/>
+  </g>
+</svg>

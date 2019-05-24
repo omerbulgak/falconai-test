@@ -1,0 +1,98 @@
+.mainContainer {
+  display: flex;
+  position: relative;
+  flex: 1;
+  /* height: 380px; */
+  height:30%;
+  overflow: hidden;
+}
+
+.profileImage {
+  width: 140px;
+  height: 209px;
+  padding-left: 20px;
+}
+
+.userDetailsContainer {
+  padding-left: 40px;
+  padding-top: 40px;
+  width:100%
+}
+
+.userName {
+  /* color: #000; */
+}
+
+.rankContainer {
+  margin: 40px 0px;
+}
+
+.rankedSolo {
+  color: #ffcb0c;
+}
+
+.statsContainer {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.statsColumn {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+}
+
+.fontType {
+  color: #fff;
+  font-weight: bold;
+}
+.percentageResult {
+  color: green;
+  font-weight: bold;
+}
+
+.winOverLoss {
+  color: red;
+  font-weight: bold;
+}
+
+.tripleKill {
+  display: flex;
+}
+
+.multiKillText {
+  padding-left: 10px;
+  width: 40px;
+}
+
+.badge {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+.moveIcon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.resizeIcon {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.backgroundImage {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  filter: brightness(50%);
+}
+.mainContainer_child {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+  position: relative;
+  width: 100%;
+}

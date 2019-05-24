@@ -1,0 +1,110 @@
+
+.banner {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d3960;
+}
+
+.bannerHeader {
+  color: #54549b;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+.filterIcon {
+  padding-right: 20px;
+}
+
+.matchedHistoryRow {
+  display: flex;
+  background-color: #54549b;
+  height: 150px;
+  align-items: center;
+}
+
+.avatar {
+  padding-left: 15px;
+  position: relative;
+}
+
+.profileType {
+  position: absolute;
+  bottom: 7px;
+  right: 2px;
+}
+
+.spellIcon {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3px;
+}
+
+.statContainer,
+.levelStats {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statsFigures {
+  font-weight: bold;
+}
+
+.spellImageContainer {
+  padding-left: 25px;
+}
+
+.spellImageRowOne,
+.spellImageRowTwo {
+  display: flex;
+  flex-direction: row;
+}
+
+.spellImage {
+  padding: 0 2px 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.matchedUserContainer {
+  padding: 0px 50px;
+}
+
+.matchedUserRow {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+.firstPlayerAvatar {
+  padding: 2px 5px;
+  width: 10px;
+  height: 10px;
+}
+.secondPlayerAvatar {
+  padding-right: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.analysisDetailsSection {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.analysisText {
+  color: #07ad62;
+}
+
+.detailsText {
+  color: #ffcb0c;
+}
+.bannerStats {
+  margin-left: 1rem;
+}
+
+.matchedHistoryRow:nth-child(odd) {
+  background-color: #2d3960;
+}

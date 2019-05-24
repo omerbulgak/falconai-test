@@ -1,0 +1,15 @@
+* {
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+    overflow-y: hidden;
+    background:#222c4b;
+}
+#root,.App,.Layout,.Layout_right{
+    height:100%;
+}
